@@ -41,3 +41,68 @@ All code in this repo follows Kent Beck's Canon TDD workflow. Source: https://ti
 - Write tests one at a time; do not speculatively write all tests upfront. Order matters and shapes the final design.
 - Never refactor while a test is failing.
 - Duplication in code is a hint, not an automatic trigger — don't abstract prematurely.
+
+## UI/UX Design Principles
+
+All UI work in this repo follows these principles. Optimize for intuitive use over clever design.
+
+### Core Philosophy
+
+- Clarity over cleverness, speed over ornamentation, consistency over novelty, usability over density.
+- Primary objective: help users accomplish their goal with minimal cognitive load.
+
+### Visual Hierarchy & Layout
+
+- One clear primary action per screen/view; secondary actions visually de-emphasized.
+- Use size, color, and spacing to indicate importance. Group related items.
+- 8px base spacing system. Spacing scale: 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64.
+- Line length ~60–80 characters for readability.
+- Use whitespace generously; chunk information.
+
+### Typography
+
+- Limit to 1–2 font families. Avoid excessive font weights.
+- Clear heading hierarchy: H1 (page title) → H2 (section) → H3 (subsection) → body → caption.
+
+### Color
+
+- 1 primary color, 1–2 accent colors, neutral grayscale for most UI.
+- Semantic colors: green = success, yellow = warning, red = error, blue = primary action.
+- Meet WCAG AA contrast minimums.
+
+### Components & Interactions
+
+- Navigation: persistent location awareness, clear current state.
+- Buttons: 1 primary per view, destructive actions require confirmation.
+- Forms: labels always visible (not just placeholders), inline validation, sensible defaults.
+- Modals: use sparingly, must be dismissible, never block critical workflows.
+
+### States & Feedback
+
+- Every action produces visible feedback.
+- Design for all states: loading, empty, success, error.
+- Empty states should explain what to do next and include a primary action.
+
+### Accessibility
+
+- Sufficient color contrast (WCAG AA).
+- Keyboard navigable.
+- Clear labels on all inputs.
+- Touch targets ≥ 44px.
+
+### Cognitive UX Laws
+
+- **Hick's Law**: reduce choices presented at once.
+- **Fitts's Law**: make primary actions large and easy to click/tap.
+- **Jakob's Law**: follow common UI patterns users already know.
+- **Von Restorff Effect**: important elements should visually stand out.
+
+### Design Quality Checklist
+
+Before finalizing any UI, verify:
+- Is the primary user goal obvious?
+- Is the primary action obvious?
+- Is anything unnecessary on the screen?
+- Can a first-time user succeed without instructions?
+- Are errors prevented where possible?
+- Is the interface accessible?
