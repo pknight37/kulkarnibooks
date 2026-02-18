@@ -73,6 +73,13 @@
     assertContains(html, "images/placeholder-cover.svg", "missing coverImage uses placeholder");
   })();
 
+  // Test 7a: Empty state includes CTA link to contact page
+  (function () {
+    var html = BooksRenderer.renderBookList([]);
+    assertContains(html, 'contact.html', "empty state contains link to contact page");
+    assertContains(html, 'books-empty__action', "empty state contains action CTA class");
+  })();
+
   // Test 7: HTML special characters are escaped (XSS prevention)
   (function () {
     assert(BooksRenderer.escapeHtml('<script>') === "&lt;script&gt;", "escapeHtml escapes angle brackets");

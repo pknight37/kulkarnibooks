@@ -32,7 +32,10 @@ var BooksRenderer = (function () {
 
   function renderBookList(books) {
     if (!books || books.length === 0) {
-      return '<p class="books-empty">No published works available at this time.</p>';
+      return '<div class="books-empty">' +
+        '<p>No published works available at this time.</p>' +
+        '<a class="books-empty__action" href="contact.html">Contact Dr. Kulkarni</a>' +
+      '</div>';
     }
     var html = '<div class="book-grid">';
     for (var i = 0; i < books.length; i++) {
