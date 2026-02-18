@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Report a problem with the KulkarniBooks.com website.">
+  <title>Report an Issue | Dr. Kulkarni</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav__inner">
+      <a href="index.html" class="site-nav__logo">Dr. Kulkarni</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">&#9776;</label>
+      <ul class="site-nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biography.html">Biography</a></li>
+        <li><a href="books.html">Published Works</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="report-issue.html" aria-current="page">Report an Issue</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content" class="container">
+    <header class="page-header">
+      <h1>Report a Website Issue</h1>
+    </header>
+
+    <p>Found a problem with this website? Please let us know using the form below.</p>
+
+    <!--
+      TODO: To activate this form, sign up at https://formspree.io and create a form.
+      Replace {your-form-id} in the action URL with your actual Formspree form ID.
+    -->
+    <form action="https://formspree.io/f/{your-form-id}" method="POST" aria-label="Report an issue">
+      <div class="form-group">
+        <label for="reporter-name">Your Name (optional)</label>
+        <input type="text" id="reporter-name" name="name" placeholder="Jane Doe">
+      </div>
+
+      <div class="form-group">
+        <label for="reporter-email">Your Email (optional)</label>
+        <input type="email" id="reporter-email" name="email" placeholder="jane@example.com">
+      </div>
+
+      <div class="form-group">
+        <label for="issue-page">Page Where Issue Occurred</label>
+        <select id="issue-page" name="page" required>
+          <option value="">-- Select a page --</option>
+          <option value="Home">Home</option>
+          <option value="Biography">Biography</option>
+          <option value="Published Works">Published Works</option>
+          <option value="Contact">Contact</option>
+          <option value="Other">Other / Not sure</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="issue-description">Description of the Issue</label>
+        <textarea id="issue-description" name="description" required placeholder="Please describe what went wrong..."></textarea>
+      </div>
+
+      <button type="submit" class="form-submit">Submit Report</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Dr. Kulkarni. All rights reserved. | <a href="report-issue.html">Report a website issue</a></p>
+  </footer>
+</body>
+</html>
