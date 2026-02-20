@@ -106,3 +106,35 @@ Before finalizing any UI, verify:
 - Can a first-time user succeed without instructions?
 - Are errors prevented where possible?
 - Is the interface accessible?
+
+## Performance (PageSpeed Insights)
+
+All pages should be designed and built with Google PageSpeed Insights scores in mind. Aim for high scores across all four categories: Performance, Accessibility, Best Practices, and SEO.
+
+### Design & Development Guidelines
+
+- Minimize render-blocking resources (inline critical CSS, defer non-critical JS).
+- Optimize images: use appropriate formats, compress, and include explicit `width`/`height` attributes to prevent layout shift.
+- Keep the DOM simple and shallow.
+- Avoid large layout shifts (CLS) — reserve space for dynamic content, images, and fonts.
+- Prioritize Largest Contentful Paint (LCP) — ensure the main content loads fast.
+- Minimize First Input Delay (FID) / Interaction to Next Paint (INP) — keep JavaScript execution lean.
+
+### PageSpeed Insights API (v5)
+
+Once the site is live, test any page with the PageSpeed Insights API.
+
+- **Endpoint**: `https://www.googleapis.com/pagespeedonline/v5/runPagespeed`
+- **Required parameter**: `url` — the page to analyze.
+- **Useful optional parameters**:
+  - `category` — one or more of: `performance`, `accessibility`, `best-practices`, `seo` (can repeat the parameter for multiple categories).
+  - `strategy` — `mobile` (default) or `desktop`.
+- **API key**: recommended for frequent/automated use; obtain from Google Cloud Console.
+
+Example curl:
+
+```bash
+curl "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://YOUR-DOMAIN.com&category=performance&category=accessibility&strategy=mobile"
+```
+
+Reference: https://developers.google.com/speed/docs/insights/v5/get-started
