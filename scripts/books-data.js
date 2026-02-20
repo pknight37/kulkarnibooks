@@ -6,21 +6,9 @@
  */
 var KULKARNI_BOOKS = [
   {
-    title: "International Economics",
-    coverImage: "images/placeholder-cover.svg",
-    description: "A comprehensive textbook covering trade theory, international finance, and open-economy macroeconomics. Widely adopted in undergraduate economics programs.",
-    buyLink: "https://example.com/buy/international-economics"
-  },
-  {
-    title: "Understanding Globalization: A Multi-Country Perspective",
-    coverImage: "images/placeholder-cover.svg",
-    description: "An accessible exploration of how globalization impacts developing and developed economies differently, drawing on case studies from over twenty countries.",
-    buyLink: "https://example.com/buy/understanding-globalization"
-  },
-  {
-    title: "Econometrics for Beginners",
-    coverImage: "images/placeholder-cover.svg",
-    description: "A gentle introduction to econometric methods for students and practitioners, featuring real-world datasets and step-by-step examples in R and Stata.",
-    buyLink: "https://example.com/buy/econometrics-beginners"
+    title: "Principles of Macro-Monetary Economics",
+    coverImage: "images/economics.png",
+    description: "Now in its sixth edition, this textbook simplifies introductory macroeconomic concepts with clear explanations, modern theories, and current data. Covers GDP, market systems, fiscal and monetary policy, and monetary theories from Keynes to the monetarists.",
+    buyLink: "https://he.kendallhunt.com/product/principles-macro-monetary-economics"
   }
 ];
