@@ -315,6 +315,21 @@ img {
   max-width: 65ch;
 }
 
+.bio-section p + p {
+  margin-top: 0.75rem;
+}
+
+.bio-section ul {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+  margin-left: 0;
+}
+
+.bio-section li {
+  margin-bottom: 0.25rem;
+}
+
 /* ===== Contact ===== */
 .contact-info {
   margin-bottom: 2rem;
