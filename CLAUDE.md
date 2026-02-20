@@ -120,6 +120,24 @@ All pages should be designed and built with Google PageSpeed Insights scores in 
 - Prioritize Largest Contentful Paint (LCP) — ensure the main content loads fast.
 - Minimize First Input Delay (FID) / Interaction to Next Paint (INP) — keep JavaScript execution lean.
 
+### Image Best Practices
+
+- Use WebP format for photographs. Convert with `cwebp -q 80 input.png -o output.webp`.
+- Size images at 2x their CSS display dimensions for retina screens (e.g., 360x360 for a 180px element).
+- Always include `width` and `height` attributes on `<img>` tags to prevent layout shift.
+- Add `fetchpriority="high"` to the LCP image (typically the hero/above-the-fold image).
+- Keep image file sizes under 50 KiB where possible.
+
+### Accessibility Checklist
+
+- All text must meet WCAG AA contrast minimums (4.5:1 for normal text, 3:1 for large text).
+- Verify contrast when using accent colors on dark backgrounds — prefer `--color-accent-bright` over `--color-accent-light` on `--color-primary` backgrounds.
+- All images must have descriptive `alt` text.
+
+### Hosting Limitations (GitHub Pages)
+
+- HTTP security headers (CSP, HSTS, COOP, X-Frame-Options, Trusted Types) cannot be configured on GitHub Pages. These will appear as unscored warnings in PageSpeed — they are expected and not actionable.
+
 ### PageSpeed Insights API (v5)
 
 Once the site is live, test any page with the PageSpeed Insights API.
