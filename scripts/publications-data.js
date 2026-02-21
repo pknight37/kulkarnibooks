@@ -9,82 +9,98 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "An Integrative Review of the Genesis of Inclusiveness in Higher Education",
     year: 2025,
-    coAuthors: "Deepa Pillai, Poornima Tapas"
+    coAuthors: "Deepa Pillai, Poornima Tapas",
+    link: "https://doi.org/10.1108/aeds-07-2024-0159"
   },
   {
     title: "Tackling the Economic Challenges of COVID-19: A Look at the Federal Reserve System: History and Present Day",
     year: 2024,
-    coAuthors: "Amitabh S. Dutta, Kun Peng Lai"
+    coAuthors: "Amitabh S. Dutta, Kun Peng Lai",
+    link: "https://doi.org/10.2139/ssrn.4856481"
   },
   {
     title: "Mr. Fagin & U — Is There Any Relationship between Child Labour, Crime Rates and Country Income per Capita?",
     year: 2024,
-    coAuthors: "Cheick Wague, Nandakumar Warrier"
+    coAuthors: "Cheick Wague, Nandakumar Warrier",
+    link: "https://doi.org/10.2139/ssrn.4854157"
   },
   {
     title: "Testing the Gravity Model for Kazakhstan's Exports to Trade Partners: Intermittent Data of 2001-2019",
     year: 2024,
-    coAuthors: "Caleb Bryan, Amitabh S. Dutta"
+    coAuthors: "Caleb Bryan, Amitabh S. Dutta",
+    link: "https://doi.org/10.2139/ssrn.4854142"
   },
   {
     title: "Guatemala and Libya: How the Harrod-Domar Growth Model Helped Define Economic Growth",
     year: 2024,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.2139/ssrn.4856500"
   },
   {
     title: "Causes and Consequences of India's Demonetization for the Monetary Sector: Implementation Difficulties and Changes in Credit Availability",
     year: 2024,
-    coAuthors: "Amitabh S. Dutta"
+    coAuthors: "Amitabh S. Dutta",
+    link: "https://doi.org/10.2139/ssrn.4860156"
   },
   {
     title: "Tackling the Economic Challenges of COVID-19: A Look at the Federal Reserve System: History and Present Day",
     year: 2024,
-    coAuthors: "Amitabh S. Dutta, Kun Peng Lai"
+    coAuthors: "Amitabh S. Dutta, Kun Peng Lai",
+    link: "https://doi.org/10.2139/ssrn.4860138"
   },
   {
     title: "Price Formation in a Small Open Economy",
     year: 2022,
-    coAuthors: "Debasish Chakraborty"
+    coAuthors: "Debasish Chakraborty",
+    link: "https://doi.org/10.1177/0019466219940307"
   },
   {
     title: "Investigating Economic Effects of 2018 Steel Tariff Imposition in USA",
     year: 2022,
-    coAuthors: "Liam Palmbach"
+    coAuthors: "Liam Palmbach",
+    link: "https://doi.org/10.21844/mijia.18.1.1"
   },
   {
     title: "Tackling the Economic Challenges of COVID-19: A Look at the Federal Reserve System: History and Present Day",
     year: 2022,
-    coAuthors: "Amitabh S. Dutta, Kun Peng Lai"
+    coAuthors: "Amitabh S. Dutta, Kun Peng Lai",
+    link: "https://doi.org/10.2139/ssrn.4860138"
   },
   {
     title: "Avoiding the Middle Income Trap: Evidence and Examination of Few Countries",
     year: 2022,
-    coAuthors: "Cheick Wague, P. Nandakumar Warrier"
+    coAuthors: "Cheick Wague, P. Nandakumar Warrier",
+    link: "https://doi.org/10.36348/sjef.2022.v06i01.005"
   },
   {
     title: "NAFTA in Mexico: What Worked? And What Did Not?",
     year: 2022,
-    coAuthors: "Dan Meylor"
+    coAuthors: "Dan Meylor",
+    link: "https://doi.org/10.53739/samvad/2021/v23/167188"
   },
   {
     title: "Pandemic and Global Food Insecurity: Experience from Developing Countries",
     year: 2022,
-    coAuthors: "Monishankar Sarkar"
+    coAuthors: "Monishankar Sarkar",
+    link: "https://doi.org/10.15410/aijm/2022/v11i1/167674"
   },
   {
     title: "Avoiding the Middle Income Trap: Evidence and Examination of Few Countries",
     year: 2022,
-    coAuthors: "Cheick Wague, P. Nandakumar Warrier"
+    coAuthors: "Cheick Wague, P. Nandakumar Warrier",
+    link: "https://doi.org/10.36348/sjef.2022.v06i01.005"
   },
   {
     title: "Pathways of Reform in Education: Evidence from India",
     year: 2022,
-    coAuthors: "Poornima Tapas, Deepa Pillai, Rita Dangre"
+    coAuthors: "Poornima Tapas, Deepa Pillai, Rita Dangre",
+    link: "https://doi.org/10.56902/irbe.2022.6.1.2"
   },
   {
     title: "The Economic Impact of COVID-19 and Responses in Two BRIC Nations — Brazil and India",
     year: 2021,
-    coAuthors: "Cheick Wague, P. Nandakumar Warrier"
+    coAuthors: "Cheick Wague, P. Nandakumar Warrier",
+    link: "https://doi.org/10.2139/ssrn.4856545"
   },
   {
     title: "Inequality and Economic Growth: Kuznets Curve and the Case of South Korea",
@@ -94,7 +110,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "The Impact of Covid-19 on the Macro Economy with Special Reference to the USA",
     year: 2021,
-    coAuthors: "Cheick Wague, P. Nandakumar Warrier"
+    coAuthors: "Cheick Wague, P. Nandakumar Warrier",
+    link: "https://doi.org/10.15410/aijm/2021/v10i2/160804"
   },
   {
     title: "Covid-19: Impacts and Policies in the NAFTA Area",
@@ -104,32 +121,38 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Tackling the Economic Challenges of COVID-19: A Look at the Federal Reserve System: History and Present Day Future of Monetary Policy",
     year: 2021,
-    coAuthors: "Amitabh S. Dutta, Kun Peng Lai"
+    coAuthors: "Amitabh S. Dutta, Kun Peng Lai",
+    link: "https://doi.org/10.2139/ssrn.4860138"
   },
   {
     title: "Demand Management Policies in the USA Since 2008: Are They the Most \"Keynesian\" Ever",
     year: 2021,
-    coAuthors: "Elizabeth Ann Beaudo"
+    coAuthors: "Elizabeth Ann Beaudo",
+    link: "https://doi.org/10.2139/ssrn.4856554"
   },
   {
     title: "Guatemala and Libya: How the Harrod-Domar Growth Model Helped Define Economic Growth",
     year: 2021,
-    coAuthors: "Jon West"
+    coAuthors: "Jon West",
+    link: "https://doi.org/10.2139/ssrn.4856500"
   },
   {
     title: "Application of the Gravity Model of International Trade to the Brazilian Case",
     year: 2021,
-    coAuthors: "Brecken Eatherton"
+    coAuthors: "Brecken Eatherton",
+    link: "https://doi.org/10.15410/aijm/2021/v10i1/157529"
   },
   {
     title: "Role of Women in Economic Development: A Comparison of the Development Trajectories in Ethiopia and Uganda",
     year: 2021,
-    coAuthors: "Ally Walker"
+    coAuthors: "Ally Walker",
+    link: "https://doi.org/10.2139/ssrn.4854148"
   },
   {
     title: "Comparison of Monetary Policy Actions: UK, Japan, and USA During the Financial Crisis of 2008",
     year: 2020,
-    coAuthors: "Gary O Chapman"
+    coAuthors: "Gary O Chapman",
+    link: "https://doi.org/10.2139/ssrn.4856561"
   },
   {
     title: "Theoretical Arguments of Economic Growth as Applied to the Case of Nicaragua",
@@ -139,12 +162,14 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "A Revisit to an Open Economy Analysis and the Demand for Money Stability: A Case of India",
     year: 2019,
-    coAuthors: "Thomas Maginnis"
+    coAuthors: "Thomas Maginnis",
+    link: "https://doi.org/10.15410/aijm/2019/v8i1/140596"
   },
   {
     title: "Causes and Consequences of India's Demonetization for the Monetary Sector: Implementation Difficulties and Changes in Credit Availability",
     year: 2018,
-    coAuthors: "Amitabh S. Dutta"
+    coAuthors: "Amitabh S. Dutta",
+    link: "https://doi.org/10.2139/ssrn.4860156"
   },
   {
     title: "Paper 157 Fiscal Policy in USA",
@@ -154,17 +179,20 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Competition to Catch the Capital Flight",
     year: 2018,
-    coAuthors: "Ashish Kumar Sedai"
+    coAuthors: "Ashish Kumar Sedai",
+    link: "https://doi.org/10.33423/jabe.v20i5.357"
   },
   {
     title: "Government Expenditure and Economic Growth: US Fiscal Policy Making",
     year: 2018,
-    coAuthors: "Layn Hyer"
+    coAuthors: "Layn Hyer",
+    link: "https://doi.org/10.2139/ssrn.4860169"
   },
   {
     title: "The Challenges of Global Population Growth: Theories, Policies, and the Case of Egypt",
     year: 2018,
-    coAuthors: "Kara Kingma"
+    coAuthors: "Kara Kingma",
+    link: "https://doi.org/10.15410/aijm/2018/v7i1/119886"
   },
   {
     title: "Consequences of Demonetization Attempt by India",
@@ -174,17 +202,20 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Cash Shortages and Black Money: A Look at India's 2016 Demonetization Effect, One Year Later",
     year: 2018,
-    coAuthors: "Amitabh S. Dutta"
+    coAuthors: "Amitabh S. Dutta",
+    link: "https://doi.org/10.56902/irbe.2018.2.1.4"
   },
   {
     title: "Who Will Lead Global Growth? Slowing Trends are the 'New Normal'",
     year: 2017,
-    coAuthors: "Penelope Prime"
+    coAuthors: "Penelope Prime",
+    link: "https://doi.org/10.1177/0972150917731014"
   },
   {
     title: "Counterfeits and Intellectual Property Rights (IPRs): The Fashion Industry",
     year: 2017,
-    coAuthors: "Olivia Hyde"
+    coAuthors: "Olivia Hyde",
+    link: "https://doi.org/10.2139/ssrn.4870919"
   },
   {
     title: "Paper Number 135 Fallacies of IS-MP Model",
@@ -199,12 +230,14 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Monetary Policy in India and the U.S.: Is the Taylor Rule Irrelevant?",
     year: 2017,
-    coAuthors: "Bansi Sawhney, Nicolas Cachanosky"
+    coAuthors: "Bansi Sawhney, Nicolas Cachanosky",
+    link: "https://doi.org/10.2139/ssrn.4870929"
   },
   {
     title: "Demonetization Comparatistics: India and Others",
     year: 2017,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.2139/ssrn.4870939"
   },
   {
     title: "My Memories of GIPE: 1974-1976",
@@ -214,7 +247,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Why Regionalism? A Look at the Costs and Benefits of Regional Trade Agreements in Africa",
     year: 2017,
-    coAuthors: "Sarah Ellis Barnekow"
+    coAuthors: "Sarah Ellis Barnekow",
+    link: "https://doi.org/10.1177/0972150916666881"
   },
   {
     title: "Lecture on Economic Policy Effects of Recent Years in USA",
@@ -224,22 +258,26 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Demonetization Comparatistics: India and Others",
     year: 2017,
-    coAuthors: "Poornima Tapas"
+    coAuthors: "Poornima Tapas",
+    link: "https://doi.org/10.2139/ssrn.4870939"
   },
   {
     title: "The Gravity Model of International Trade, a Case Study: The United Kingdom and her Trading Partners",
     year: 2016,
-    coAuthors: "Kevin Stay"
+    coAuthors: "Kevin Stay",
+    link: "https://doi.org/10.2139/ssrn.4879006"
   },
   {
     title: "Women's Empowerment and Economic Development: The Cases of Bangladesh and Kenya",
     year: 2016,
-    coAuthors: "Dawn Gocio"
+    coAuthors: "Dawn Gocio",
+    link: "https://doi.org/10.1504/ijeed.2016.082171"
   },
   {
     title: "Women's Empowerment and Economic Development: The Cases of Bangladesh and Kenya",
     year: 2016,
-    coAuthors: "Dawn Gocio"
+    coAuthors: "Dawn Gocio",
+    link: "https://doi.org/10.1504/ijeed.2016.082171"
   },
   {
     title: "FDI Comparatistics: China and India",
@@ -259,22 +297,26 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Macroeconomy of USA: Challenges and Opportunities of Recent Past",
     year: 2015,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.15410/cijbr/2015/v1i1/61391"
   },
   {
     title: "Stifling Trade Policy, Case of Nigeria and the Infant Industry Argument: A Review Article",
     year: 2015,
-    coAuthors: "Camden Bowman"
+    coAuthors: "Camden Bowman",
+    link: "https://doi.org/10.15410/aijm/2015/v4i1/59892"
   },
   {
     title: "Gravity Model: India's Exports",
     year: 2015,
-    coAuthors: "Rajani R Gupte, Shreya Sethi"
+    coAuthors: "Rajani R Gupte, Shreya Sethi",
+    link: "https://doi.org/10.2139/ssrn.4884584"
   },
   {
     title: "Does High Population Growth Help or Hurt Economic Development? Cases of China and Pakistan",
     year: 2015,
-    coAuthors: "Raziel Chaparro"
+    coAuthors: "Raziel Chaparro",
+    link: "https://doi.org/10.1504/ijeed.2015.070629"
   },
   {
     title: "HOS Model for Mexico with Rachel Schmidt",
@@ -284,7 +326,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "The J-Curve and Kulkarni Hypotheses: Evidence from Transitional and Developing Economies",
     year: 2014,
-    coAuthors: "Michelle Woodruff"
+    coAuthors: "Michelle Woodruff",
+    link: "https://doi.org/10.2139/ssrn.4884612"
   },
   {
     title: "The Labor Market, Demographic Changes and Unemployment in Egypt",
@@ -294,12 +337,14 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "A Partial Test of the Heckscher-Ohlin-Samuelson Model: US-Mexico Trade Relations and Labour in Mexico",
     year: 2014,
-    coAuthors: "Rachel Schmidt"
+    coAuthors: "Rachel Schmidt",
+    link: "https://doi.org/10.2139/ssrn.4884596"
   },
   {
     title: "Measuring Income Inequality and Human Development in Brazil: 2004-2012",
     year: 2014,
-    coAuthors: "Heather Randall"
+    coAuthors: "Heather Randall",
+    link: "https://doi.org/10.2139/ssrn.4893068"
   },
   {
     title: "Understanding the Effect of Dutch Disease",
@@ -319,7 +364,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "A Case Study: Impact of International Liberalization on the Indian Economy",
     year: 2012,
-    coAuthors: "Shreesh Bhattarai"
+    coAuthors: "Shreesh Bhattarai",
+    link: "https://doi.org/10.7885/1946-651x.1090"
   },
   {
     title: "Dynamic Balance of Trade Deficits Due to Currency Devaluations: A Test of the J-Curve and Kulkarni Hypothesis",
@@ -339,17 +385,20 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "An Analysis of China's Economic Reform Using the Neo-Classical Model of International Trade",
     year: 2011,
-    coAuthors: "Jarrod Gibbons"
+    coAuthors: "Jarrod Gibbons",
+    link: "https://doi.org/10.7885/1946-651x.1040"
   },
   {
     title: "Measuring Development through Women's Empowerment: A Case of Comparison, Brazil & Bolivia",
     year: 2011,
-    coAuthors: "Stephanie Roberts"
+    coAuthors: "Stephanie Roberts",
+    link: "https://doi.org/10.7885/1946-651x.1043"
   },
   {
     title: "Short-Run Deviations from Purchasing Power Parity (PPP): A Case of Expectational Changes",
     year: 2011,
-    coAuthors: "P. Nandakumar"
+    coAuthors: "P. Nandakumar",
+    link: "https://doi.org/10.19030/jabr.v8i2.6174"
   },
   {
     title: "Technology for Growth: Indian Green Revolution",
@@ -384,12 +433,14 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Should All Europe Share a Currency?: A Multi Country Analysis",
     year: 2011,
-    coAuthors: "Gavin Roberts"
+    coAuthors: "Gavin Roberts",
+    link: "https://doi.org/10.2139/ssrn.4854225"
   },
   {
     title: "Twin Deficit Revisited: Evidence from India, Pakistan and Mexico",
     year: 2011,
-    coAuthors: "Erick Erickson"
+    coAuthors: "Erick Erickson",
+    link: "https://doi.org/10.19030/jabr.v17i2.2076"
   },
   {
     title: "Endowment Lecture in University of Mysore on the \"Macroeconomic Situation in USA in 2009\"",
@@ -399,7 +450,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Dutch Disease and the Chilean Copper Boom: An Empirical Analysis",
     year: 2011,
-    coAuthors: "Alex A. Ruehle"
+    coAuthors: "Alex A. Ruehle",
+    link: "https://doi.org/10.1504/ijeed.2011.037966"
   },
   {
     title: "Effects of India's Trade Policy on Rice Production and Exports",
@@ -409,12 +461,14 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Testing the Application of Heckscher-Ohlin Theorem to Contemporary Trade Between Malaysia and Singapore",
     year: 2010,
-    coAuthors: "Andrew Clarke"
+    coAuthors: "Andrew Clarke",
+    link: "https://doi.org/10.7885/1946-651x.1009"
   },
   {
     title: "International Trade as an Engine of Economic Growth Revisited: A Case of Egypt",
     year: 2010,
-    coAuthors: "Galen Smith"
+    coAuthors: "Galen Smith",
+    link: "https://doi.org/10.7885/1946-651x.1018"
   },
   {
     title: "Economic Effects of NAFTA on Mexico's Economy: Recent Evidence of Economic Integration",
@@ -449,7 +503,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Income Distribution and Economic Growth: The Case of Brazil",
     year: 2009,
-    coAuthors: "Camila Matins-Bekat"
+    coAuthors: "Camila Matins-Bekat",
+    link: "https://doi.org/10.1353/jda.0.0033"
   },
   {
     title: "Application of the J-Curve to Select CFA Zone Countries 1990 - Present",
@@ -469,7 +524,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Adoption of Big Push Hypothesis: Evidence from the Case of Botswana",
     year: 2009,
-    coAuthors: "Christopher Conrad"
+    coAuthors: "Christopher Conrad",
+    link: "https://doi.org/10.1504/ijeed.2009.029303"
   },
   {
     title: "Structural Transformation: Economic Growth in India",
@@ -584,7 +640,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "The Role of International Trade Policy in Economic Growth: A Case of Tanzania",
     year: 2004,
-    coAuthors: "Curt J. Harris"
+    coAuthors: "Curt J. Harris",
+    link: "https://doi.org/10.1177/097215090400500202"
   },
   {
     title: "Heckscher-Ohlin-Samuelson (H-O-S) Theorem and the Case of Thailand's Economic Crisis",
@@ -594,7 +651,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "A Case of Protectionist Policies and Economic Welfare: Some Evidence from Syria's Economy",
     year: 2004,
-    coAuthors: "Roger Dowd"
+    coAuthors: "Roger Dowd",
+    link: "https://doi.org/10.2139/ssrn.4854097"
   },
   {
     title: "A Test of Monetarist Model of Imported Inflation: A Comparison of India's Case with Open Economies",
@@ -609,7 +667,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Outward Looking Policies and Economic Development: A Case of Taiwan since 1952",
     year: 2004,
-    coAuthors: "Qixiang Sun"
+    coAuthors: "Qixiang Sun",
+    link: "https://doi.org/10.1177/097215090400500101"
   },
   {
     title: "US Steel Import Tariffs: A New Beginning to Old Mistakes?",
@@ -634,7 +693,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Have the Monetary and Fiscal Policies been Effective in India?",
     year: 2003,
-    coAuthors: "Sweta C. Saxena"
+    coAuthors: "Sweta C. Saxena",
+    link: "https://doi.org/10.1177/097215090300400202"
   },
   {
     title: "An Application of Neoclassical Development Ideas to Botswana",
@@ -649,12 +709,14 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Empirical Evidence of the J-Curve Hypothesis",
     year: 2002,
-    coAuthors: "Alpna Bhatia"
+    coAuthors: "Alpna Bhatia",
+    link: "https://doi.org/10.1177/0019466220020305"
   },
   {
     title: "Purchasing Power Parity Theory Revisited: Recent Evidence from US Dollar and Japanese Yen",
     year: 2002,
-    coAuthors: "Maiko Ishizaki"
+    coAuthors: "Maiko Ishizaki",
+    link: "https://doi.org/10.1177/097215090200300104"
   },
   {
     title: "Testing the Intra-Industry Trade Hypothesis: A Case of Japanese Trade in Manufacturing",
@@ -664,7 +726,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "The J-Curve Hypothesis and Currency Devaluation: Cases of Egypt and Ghana",
     year: 2001,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.19030/jabr.v12i2.5821"
   },
   {
     title: "The Phillips Curve: Trade off or Stagflation in Reverse?",
@@ -684,17 +747,20 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Lessons for India from the Recent Financial Crisis in Southeast Asia",
     year: 2000,
-    coAuthors: "Meenakshi Rishi"
+    coAuthors: "Meenakshi Rishi",
+    link: "https://doi.org/10.1177/0258042x0002500405"
   },
   {
     title: "Lessons for India from Recent Financial and Economic Crisis in Southwest Asia",
     year: 2000,
-    coAuthors: "Meenakshi Rishi"
+    coAuthors: "Meenakshi Rishi",
+    link: "https://doi.org/10.1177/0258042x0002500405"
   },
   {
     title: "Determination of Chinese Yuan Rate: An Analysis of Foreign Exchange Transactions",
     year: 2000,
-    coAuthors: "Jing Li"
+    coAuthors: "Jing Li",
+    link: "https://doi.org/10.1177/0019466220010308"
   },
   {
     title: "Demand for Money Stability Revisited: A Case of India",
@@ -749,7 +815,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Complaints of LDCs against Free Trade and Role of GATT: A Historical Perspective",
     year: 1996,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.2139/ssrn.4854184"
   },
   {
     title: "Balance of Payments Changes and the Exchange Rate Devaluation: A Case of India",
@@ -769,7 +836,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Is Crowding-Out Hypothesis Evident in LDCs? A Case of India",
     year: 1993,
-    coAuthors: "Erick Erickson"
+    coAuthors: "Erick Erickson",
+    link: "https://doi.org/10.1177/0019466219950109"
   },
   {
     title: "An Examination of Tariff Endogeneity and International Trade: A Case of India's Tariff Policy",
@@ -794,22 +862,26 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "A Test of Purchasing Power Parity (PPP) Theory and the International Fisher Effect: A Case of the U.S. Dollar and the Japanese Yen",
     year: 1991,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.19030/jabr.v7i1.6263"
   },
   {
     title: "The World Trading System: Law and Policy of International Economic Relations",
     year: 1991,
-    coAuthors: "John Jackson"
+    coAuthors: "John Jackson",
+    link: "https://doi.org/10.2307/1060206"
   },
   {
     title: "The Relationship Between Desired and Actual Money Demand: Adjustment Coefficient Estimation in Case of India",
     year: 1991,
-    coAuthors: "Debasish Chakraborty"
+    coAuthors: "Debasish Chakraborty",
+    link: "https://doi.org/10.1177/0019466219910108"
   },
   {
     title: "Monetary Approach to Balance of Payments and Exchange Rate Determination: Recent Experience of Eight Countries",
     year: 1990,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.1177/0019466219900310"
   },
   {
     title: "Recent Fluctuations in the US Dollar Value and the BOP",
@@ -849,7 +921,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "The Theory of Duality and International Trade",
     year: 1987,
-    coAuthors: "Pasquale Michael Sgro"
+    coAuthors: "Pasquale Michael Sgro",
+    link: "https://doi.org/10.2307/1059347"
   },
   {
     title: "Supply Shocks and Demand for Money in India",
@@ -874,7 +947,8 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Rational Commitment: A Foundation for Macroeconomics",
     year: 1986,
-    coAuthors: "Brendan O'Flaherty"
+    coAuthors: "Brendan O'Flaherty",
+    link: "https://doi.org/10.2307/1059446"
   },
   {
     title: "Further Empirical Evidence on Stability of Demand for Money in India",
@@ -889,17 +963,20 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Inflation, Stagflation, Relative Prices, and Imperfect Information",
     year: 1986,
-    coAuthors: "Alex Cukierman"
+    coAuthors: "Alex Cukierman",
+    link: "https://doi.org/10.2307/1059191"
   },
   {
     title: "Human Resources, Employment and Development",
     year: 1985,
-    coAuthors: "Samir Amin"
+    coAuthors: "Samir Amin",
+    link: "https://doi.org/10.2307/1059659"
   },
   {
     title: "Capital Flows as an Offset to Monetary Policy: The Netherlands Experience",
     year: 1985,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.1177/0019466219850109"
   },
   {
     title: "Book Review of Jeffrey Frenkel's book in Southern Economic Journal in 1985",
@@ -909,27 +986,32 @@ var KULKARNI_PUBLICATIONS = [
   {
     title: "Modern Industrial Economy: Its Working under Different Economic Systems",
     year: 1985,
-    coAuthors: "M. S. Khan"
+    coAuthors: "M. S. Khan",
+    link: "https://doi.org/10.2307/1057915"
   },
   {
     title: "The New International Economic Order: An Overview",
     year: 1984,
-    coAuthors: "P. N. Agarwala"
+    coAuthors: "P. N. Agarwala",
+    link: "https://doi.org/10.2307/1058353"
   },
   {
     title: "Exchange Rate and Trade Instability: Causes, Consequences, and Remedies",
     year: 1984,
-    coAuthors: "David Bigman, Teizo Taya"
+    coAuthors: "David Bigman, Teizo Taya",
+    link: "https://doi.org/10.2307/1058024"
   },
   {
     title: "The Monetary Approach to the Balance of Payments and Importation of Inflation: A Further Analysis and Empirical Evidence",
     year: 1983,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.1108/eb028636"
   },
   {
     title: "Monetary Approach to BOP and Importation of Inflation: A Further Analysis and Empirical Evidence",
     year: 1983,
-    coAuthors: ""
+    coAuthors: "",
+    link: "https://doi.org/10.1108/eb028636"
   },
   {
     title: "A Critique of Keynesian Conventional Wisdom",
