@@ -432,6 +432,16 @@ var KULKARNI_PUBLICATIONS = [
     coAuthors: ""
   },
   {
+    title: "Consumption Pattern in an Open Economy Setting: A Case of India",
+    year: 2009,
+    coAuthors: "Dharmendra Dhakal, K. P. Upadhyaya"
+  },
+  {
+    title: "Evidence of Exchange Rate Effect on the Trade Balance of 5 Countries: Cases of Multiple Devaluations",
+    year: 2009,
+    coAuthors: "Adam Spencer"
+  },
+  {
     title: "Dutch Disease and Indian Trade Policy",
     year: 2009,
     coAuthors: "P. Brijesh A.K. Jha"
@@ -452,9 +462,144 @@ var KULKARNI_PUBLICATIONS = [
     coAuthors: "Michael Shanley"
   },
   {
+    title: "Economic Liberalization In India: Policy Objectives, Reform and Perspectives--A Neoclassical Dimension Towards Economic Development",
+    year: 2009,
+    coAuthors: ""
+  },
+  {
+    title: "Adoption of Big Push hypothesis: evidence from the case of Botswana",
+    year: 2009,
+    coAuthors: "Christopher Conrad"
+  },
+  {
+    title: "Structural Transformation: Economic Growth in India",
+    year: 2008,
+    coAuthors: "Meg Hendricks"
+  },
+  {
+    title: "Trade with Africa: A Theoretical and Empirical Analysis of Intra-African Trade",
+    year: 2008,
+    coAuthors: "Khutso Madubanya"
+  },
+  {
+    title: "Trouble with import substitution and protectionism: A case of Indian economy",
+    year: 2008,
+    coAuthors: "Kip Jon Meister"
+  },
+  {
+    title: "STUDY OF ECONOMIC TRANSITION FROM COMMUNISM TO FREE TRADE CAPITALISM: A CASE OF POLAND",
+    year: 2007,
+    coAuthors: "Kate Kester"
+  },
+  {
+    title: "WTO Policies in Modern Worldwide Education System",
+    year: 2007,
+    coAuthors: ""
+  },
+  {
+    title: "DUALISTIC ECONOMIC STRUCTURE AND UNEMPLOYMENT IN CHINA",
+    year: 2007,
+    coAuthors: "Weijia Huang"
+  },
+  {
+    title: "The Role of NAFTA in the Economic Development of Mexico: Results from Modern Data",
+    year: 2007,
+    coAuthors: "Stefano Chioetto"
+  },
+  {
+    title: "Influence of Keynes on Policy Making in US",
+    year: 2006,
+    coAuthors: "Davey Iverson"
+  },
+  {
     title: "DEMAND FOR MONEY IN AN OPEN ECONOMY SETTING: A CASE OF INDIA",
     year: 2006,
     coAuthors: "Mei Yuan"
+  },
+  {
+    title: "Effect of Globalization on India\'s Economic Growth",
+    year: 2006,
+    coAuthors: ""
+  },
+  {
+    title: "Economic Growth and Income Inequality in India",
+    year: 2006,
+    coAuthors: ""
+  },
+  {
+    title: "Role of Social Capital in Economic Development: A Case of (the East European) Georgia",
+    year: 2006,
+    coAuthors: "Anthony C. Lopez"
+  },
+  {
+    title: "An Application of Neoclassical Development Ideas to Botswana",
+    year: 2006,
+    coAuthors: "Alexis Bonogofsky"
+  },
+  {
+    title: "ROLE OF FDI IN THE ECONOMIC DEVELOPMENT OF NEPAL",
+    year: 2006,
+    coAuthors: "Andrea Elliott"
+  },
+  {
+    title: "Tariff Rate Quota: An Economic Analysis of Agricultural Policies for Sugar with Special Reference to the USA",
+    year: 2005,
+    coAuthors: "Jamie Petty"
+  },
+  {
+    title: "Trade Barriers and Consumer Welfare: A Case of US Anti-Dumping Investigations of Shrimp Imports from Asia",
+    year: 2005,
+    coAuthors: "Jeffrey Franklin"
+  },
+  {
+    title: "US Tariff Policy and Hawley-Smoot Act of 1930",
+    year: 2005,
+    coAuthors: "Christopher Evans"
+  },
+  {
+    title: "Foreign Aid and Economic Growth in Ecuador: A Test of Harrod-Domar Financing Gap Growth Model",
+    year: 2005,
+    coAuthors: "Lotta Westerberg"
+  },
+  {
+    title: "Impact of Tariff Reduction on Economic Growth: A Case of Chinese Automotive Industry",
+    year: 2005,
+    coAuthors: "Claudia Kolbinger"
+  },
+  {
+    title: "Tariff Rate Quotas: An Economic Analysis of Agricultural Policies for Sugar with Reference to the US",
+    year: 2005,
+    coAuthors: "Jamie Petty"
+  },
+  {
+    title: "Gross Domestic Product and Social Welfare in Mexico: Are Economists Missing Some Things?",
+    year: 2005,
+    coAuthors: "Jeff Franklin"
+  },
+  {
+    title: "NEO-CLASSICAL THEORY OF DEVELOPMENT, NEO-LIBERALISM AND EXPERIENCE OF KENYA",
+    year: 2005,
+    coAuthors: "Ms. Kathleen Fogelberg"
+  },
+  {
+    title: "The Role of International Trade Policy in Economic Growth: A Case of Tanzania",
+    year: 2004,
+    coAuthors: "Curt J. Harris"
+  },
+  {
+    title: "Heckscher-Ohlin-Samuelson (H-O-S) Theorem and the Case of Thailand\'s Economic Crisis",
+    year: 2004,
+    coAuthors: "Jiraporn Wajavuth"
+  },
+  {
+    title: "A Case of Protectionist Policies and Economic Welfare: Some Evidence from Syria\'s Economy",
+    year: 2004,
+    coAuthors: "Roger Dowd"
+  },
+  {
+    title: "A Test of Monetarist Model of Imported Inflation: A Comparison of India\'s Case with Open Economies",
+    year: 2004,
+    coAuthors: "Meenakshi Rishi"
   },
   {
     title: "Structural Adjustment, Liberalization and the Gender Bias: A Case of Ghana",
@@ -462,8 +607,383 @@ var KULKARNI_PUBLICATIONS = [
     coAuthors: "Angela Benishek"
   },
   {
+    title: "Outward Looking Policies and Economic Development: A Case of Taiwan since 1952",
+    year: 2004,
+    coAuthors: "Qixiang Sun"
+  },
+  {
+    title: "US STEEL IMPORT TARIFFS: A NEW BEGINNING TO OLD MISTAKES?",
+    year: 2004,
+    coAuthors: "Dorothy Shepperd"
+  },
+  {
+    title: "The Budget Deficit and Macroeconomic Performance: A Real-Financial Computable General Equilibrium Model for India",
+    year: 2003,
+    coAuthors: "C. W. M. Naastepad"
+  },
+  {
+    title: "India\'s External Debt Compared with Argentina, Brazil and Mexico: 1980-1996",
+    year: 2003,
+    coAuthors: "Meenakshi Rishi"
+  },
+  {
+    title: "Comparison of 1980s Latin American and 1990s East Asian Financial Crises",
+    year: 2003,
+    coAuthors: "Anne Dullum"
+  },
+  {
     title: "Have the Monetary and Fiscal Policies been Effective in India?",
     year: 2003,
     coAuthors: "Sweta C. Saxena"
+  },
+  {
+    title: "An Application of Neoclassical Development Ideas to Botswana",
+    year: 2003,
+    coAuthors: "Alexis Bonogofsky"
+  },
+  {
+    title: "Empirical Evidence of the J-Curve Hypothesis",
+    year: 2002,
+    coAuthors: "Alpna Bhatia"
+  },
+  {
+    title: "Purchasing Power Parity Theory Revisited: Recent Evidence from US Dollar and Japanese Yen",
+    year: 2002,
+    coAuthors: "Maiko Ishizaki"
+  },
+  {
+    title: "Testing the Intra-Industry Trade Hypothesis: A Case of Japanese Trade in Manufcturing",
+    year: 2001,
+    coAuthors: "Maiko Ishizaki"
+  },
+  {
+    title: "The J-Curve Hypothesis And Currency Devaluation: Cases Of Egypt And Ghana",
+    year: 2001,
+    coAuthors: ""
+  },
+  {
+    title: "The Phillips Curve: Trade off or Stagflation in Reverse?",
+    year: 2001,
+    coAuthors: "Menakshi Rishi"
+  },
+  {
+    title: "Life of Irving Fisher and Development of Quantity Theory of Money",
+    year: 2001,
+    coAuthors: ""
+  },
+  {
+    title: "India\'s BOP: A Review of Capital Account Behavior Since Independence",
+    year: 2000,
+    coAuthors: ""
+  },
+  {
+    title: "Lessons for India from the Recent Financial Crisis in Southeast Asia",
+    year: 2000,
+    coAuthors: "Meenakshi Rishi"
+  },
+  {
+    title: "Lessons for India from Recent Financial and Economic Crisis in Southwest Asia",
+    year: 2000,
+    coAuthors: "Meenakshi Rishi"
+  },
+  {
+    title: "Determination of Chinese Yuan Rate: An Analysis of Foreign Exchange Transactions",
+    year: 2000,
+    coAuthors: "Jing Li"
+  },
+  {
+    title: "Demand for Money Stability Revisited: A Case of India",
+    year: 2000,
+    coAuthors: "Erick Erickson"
+  },
+  {
+    title: "An Empirical Study of Crowding out Hypothesis: A Case of Mexico",
+    year: 1999,
+    coAuthors: "Juventino U. Balderas"
+  },
+  {
+    title: "Crowding Out Hypothesis in Indonesian Economy",
+    year: 1999,
+    coAuthors: "Luky Alfirman"
+  },
+  {
+    title: "Impact of Dutch Disease on An Economy: A Case of Nigeria",
+    year: 1999,
+    coAuthors: "Erick Erickson"
+  },
+  {
+    title: "Survey of Saving and Investment Behavior Studies in India",
+    year: 1999,
+    coAuthors: "Chaitram Talele"
+  },
+  {
+    title: "The Recent Indonesian Currency Crisis: Underlying Factors and Implications",
+    year: 1998,
+    coAuthors: "Irdina Irawati"
+  },
+  {
+    title: "Economic Growth and Income Distribution: A Test of Kuznets Inverted U Curve: A Case of Malaysia",
+    year: 1998,
+    coAuthors: "Subrahmanyam Ganti, Rani Hadi Ali, Zarina Othman"
+  },
+  {
+    title: "Economic Analysis of Gold Standard Monetary System: Theory and Empirical Evidence",
+    year: 1997,
+    coAuthors: "Mahua Barari"
+  },
+  {
+    title: "India\'s Foreign Trade: A Review of Her Current Account",
+    year: 1997,
+    coAuthors: ""
+  },
+  {
+    title: "A Comparison of Tariff Policies in Three Countries: South Korea, Australia and Argentina",
+    year: 1996,
+    coAuthors: ""
+  },
+  {
+    title: "Complaints of LDCs against Free Trade and Role of Gatt: A Historical Perspective",
+    year: 1996,
+    coAuthors: ""
+  },
+  {
+    title: "Balance of Payments Changes and the Exchange Rate Devaluation: A case of India",
+    year: 1996,
+    coAuthors: ""
+  },
+  {
+    title: "Full Convertibility of Indian Rupee: Sooner the Better",
+    year: 1996,
+    coAuthors: ""
+  },
+  {
+    title: "India\'s economic future: Government, people and attitudes : V.V. Bhanoji Rao, Tata-McGraw Hill Publishing Company Ltd., New Delhi, 1993, pp. 372.",
+    year: 1995,
+    coAuthors: ""
+  },
+  {
+    title: "Is Crowding -out Hypothesis Evident in LDCs? A Case of India",
+    year: 1993,
+    coAuthors: "Erick Erickson"
+  },
+  {
+    title: "An Examination of Tariff Endogeneity and International Trade: A Case of India\'s Tariff Policy",
+    year: 1992,
+    coAuthors: ""
+  },
+  {
+    title: "THE J-CURVE HYPOTHESIS, BALANCE OF PAYMENT AND THE RECENT DEVALUATION OF INDIAN RUPEE",
+    year: 1992,
+    coAuthors: ""
+  },
+  {
+    title: "Has International Trade Benefitted LDCs?: India\'s Case",
+    year: 1992,
+    coAuthors: ""
+  },
+  {
+    title: "Book review of Deardoff and Stern book in Southern Economic Journal",
+    year: 1992,
+    coAuthors: ""
+  },
+  {
+    title: "A Test Of Purchasing Power Parity (PPP) Theory And The International Fisher Effect: A Case Of The U.S. Dollar And The Japanese Yen",
+    year: 1991,
+    coAuthors: ""
+  },
+  {
+    title: "The World Trading System: Law and Policy of International Economic Relations",
+    year: 1991,
+    coAuthors: "John Jackson"
+  },
+  {
+    title: "The Relationship Between Desired and Actual Money Demand: Adjustment Coefficient Estimation In Case of India",
+    year: 1991,
+    coAuthors: "Debasish Chakraborty"
+  },
+  {
+    title: "Monetary Approach to Balance of Payments and Exchange Rate Determination: Recent Experience of Eight Countries",
+    year: 1990,
+    coAuthors: ""
+  },
+  {
+    title: "Recent Fluctuations in the US Dollar Value and the BOP",
+    year: 1990,
+    coAuthors: ""
+  },
+  {
+    title: "An Empirical Evidence of PPP Theory: A Case of Indian Rupee and the US Dollar",
+    year: 1990,
+    coAuthors: "Debasish Chakraborty"
+  },
+  {
+    title: "Export Instability Revisited: The Link from Exchange Rate Variability",
+    year: 1989,
+    coAuthors: ""
+  },
+  {
+    title: "India\'s External Debt and Exception to the International Debt Crisis",
+    year: 1989,
+    coAuthors: ""
+  },
+  {
+    title: "Offsetting Coefficient to Monetary Policy: Keynesian, Portfolio Balance and Monetarist Estimates for India",
+    year: 1988,
+    coAuthors: ""
+  },
+  {
+    title: "Effects of Output Growth on the Balance of Payments",
+    year: 1988,
+    coAuthors: "Debasish Chakraborty"
+  },
+  {
+    title: "Macro-model of Stagflation in Small Open Economy",
+    year: 1988,
+    coAuthors: ""
+  },
+  {
+    title: "The Theory of Duality and International Trade",
+    year: 1987,
+    coAuthors: "Pasquale Michael Sgro"
+  },
+  {
+    title: "Supply Shocks and Demand for Money in India",
+    year: 1987,
+    coAuthors: "Thomas Muthucattu Paul"
+  },
+  {
+    title: "Book review: Southern Economic Review",
+    year: 1987,
+    coAuthors: ""
+  },
+  {
+    title: "Book Review: Southern Economic Journal",
+    year: 1987,
+    coAuthors: ""
+  },
+  {
+    title: "A Review of Major Changes in Arkansas\' Agricultural Development: Past and Present",
+    year: 1987,
+    coAuthors: ""
+  },
+  {
+    title: "Rational Commitment: A Foundation for Macroeconomics",
+    year: 1986,
+    coAuthors: "Brendan O\'Flaherty"
+  },
+  {
+    title: "Further Empirical Evidence on Stability of Demand for Money in India",
+    year: 1986,
+    coAuthors: ""
+  },
+  {
+    title: "The Future of International Monetary System: An Analysis of New Ideas",
+    year: 1986,
+    coAuthors: "Allyson Simmons"
+  },
+  {
+    title: "Inflation, Stagflation, Relative Prices, and Imperfect Information",
+    year: 1986,
+    coAuthors: "Alex Cukierman"
+  },
+  {
+    title: "Human Resources, Employment and Development",
+    year: 1985,
+    coAuthors: "Samir Amin"
+  },
+  {
+    title: "Capital Flows as an Offset to Monetary Policy: The Netherlands Experience",
+    year: 1985,
+    coAuthors: ""
+  },
+  {
+    title: "Book Review of Jeffrey Frenkel\'s book in Southern Economic Journal in 1985",
+    year: 1985,
+    coAuthors: ""
+  },
+  {
+    title: "Modern Industrial Economy: Its Working under Different Economic Systems",
+    year: 1985,
+    coAuthors: "M. S. Khan"
+  },
+  {
+    title: "The New International Economic Order: An Overview",
+    year: 1984,
+    coAuthors: "P. N. Agarwala"
+  },
+  {
+    title: "Exchange Rate and Trade Instability: Causes, Consequences, and Remedies",
+    year: 1984,
+    coAuthors: "David Bigman, Teizo Taya"
+  },
+  {
+    title: "The Monetary Approach to the Balance of Payments and Importation of Inflation: A Further Analysis and Empirical Evidence",
+    year: 1983,
+    coAuthors: ""
+  },
+  {
+    title: "Monetary Approach to BOP and Importation of Inflation: A Further Analysis and Empirical Evidence",
+    year: 1983,
+    coAuthors: ""
+  },
+  {
+    title: "A Critique of Keynesian Conventional Wisdom",
+    year: 1983,
+    coAuthors: ""
+  },
+  {
+    title: "The Monetarist Model of Imported Inflation in Small Open Economy",
+    year: 1981,
+    coAuthors: ""
+  },
+  {
+    title: "Steel Industry in India: Problems and Solutions: A Short Review",
+    year: 1980,
+    coAuthors: ""
+  },
+  {
+    title: "Comparison of Existence of Real Balance Effect in Six Countries",
+    year: 1979,
+    coAuthors: ""
+  },
+  {
+    title: "POPULATION EXPLOSION AND ECONOMIC DEVELOPMENT: COMPARATIVE ANALYSIS OF BRAZIL AND MEXICO",
+    year: 0,
+    coAuthors: "Ms Ashley Latimer, J Korbel"
+  },
+  {
+    title: "ANTI-DUMPING LAW AS A TRADE BARRIER: A CASE OF SOUTH-AFRICAN POULTRY IMPORTS FROM USA",
+    year: 0,
+    coAuthors: "Alexa Strear"
+  },
+  {
+    title: "Indian Journal of Economics & Business Volume:: 2. No. 1 June 2003",
+    year: 0,
+    coAuthors: ""
+  },
+  {
+    title: "Social Justice and the Agency Of Women: The Kerala Story Social Justice and the Agency Of Women: The Kerala Story",
+    year: 0,
+    coAuthors: "Renuka Pillay, Meenakshi Rishi"
+  },
+  {
+    title: "REVIEW OF CURRENCY BOARDS AND EXCHANGE RATE MANAGEMENT REVIEW OF CURRENCY BOARDS AND EXCHANGE RATE MANAGEMENT",
+    year: 0,
+    coAuthors: "Mr David Mason"
+  },
+  {
+    title: "Unraveling the Exchange Rate \u2013 Balance of Payments Correlation: Economic Policy Recommendation via the Mundell-Fleming Apparatus",
+    year: 0,
+    coAuthors: "Christopher Dula"
+  },
+  {
+    title: "Critique and Analysis of the Currency Crisis in Argentina",
+    year: 0,
+    coAuthors: "Ben James"
+  },
+  {
+    title: "Influence of Keynesianism on policy making in Germany: 1948 - 1990",
+    year: 0,
+    coAuthors: "Sonja Peterson"
   }
 ];
