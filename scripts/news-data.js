@@ -6,6 +6,12 @@ var KULKARNI_NEWS = [
     link: "https://www.9news.com/article/news/local/scotus-trump-tariffs-ruling/73-d7355f3e-192f-44ab-bdf9-2f0baeb6fab8"
   },
   {
+    title: "Dr. Kulkarni Discusses Supreme Court Tariff Ruling",
+    source: "9NEWS",
+    date: "2026-02-20",
+    link: "https://mms.tveyes.com/MediaCenterPlayer.aspx?u=aHR0cDovL21lZGlhY2VudGVyLnR2ZXllcy5jb20vZG93bmxvYWRnYXRld2F5LmFzcHg%2FVXNlcklEPTE0MDgzMCZNRElEPTI1MjgxMzA4Jk1EU2VlZD01MTcyJlR5cGU9TWVkaWE%3D"
+  },
+  {
     title: "MSU Denver Professor Publishes New Edition of International Economics Textbook",
     source: "MSU Denver RED",
     date: "2021-08-05",
