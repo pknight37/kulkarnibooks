@@ -48,6 +48,10 @@ Every entry needs these fields:
   - Entries WITH a link: `title`, `year`, `coAuthors`, `link`
   - Entries WITHOUT a link: `title`, `year`, `coAuthors` (no link field)
 
+## Update Publication Count
+
+After adding entries, update the publication count on the home page (`index.html`). The count appears in the CTA card linking to publications (e.g., "Explore over 200 journal articles..."). Round down to the nearest 10 (e.g., 205 entries → "over 200", 210 entries → "over 210").
+
 ## After Adding
 
 - Confirm the entry details with the user before committing.
