@@ -13,6 +13,12 @@ var KULKARNI_PUBLICATIONS = [
     link: "https://doi.org/10.1108/aeds-07-2024-0159"
   },
   {
+    title: "Consequences of Unbalanced Productivity Growth in India: Lessons from the Scandinavian Model",
+    year: 2025,
+    coAuthors: "Cheick Wague, P. Nandakumar Warrier",
+    link: "https://doi.org/10.53422/jdms.2025.122302"
+  },
+  {
     title: "Tackling the Economic Challenges of COVID-19: A Look at the Federal Reserve System: History and Present Day",
     year: 2024,
     coAuthors: "Amitabh S. Dutta, Kun Peng Lai",
@@ -47,6 +53,17 @@ var KULKARNI_PUBLICATIONS = [
     year: 2024,
     coAuthors: "Amitabh S. Dutta, Kun Peng Lai",
     link: "https://doi.org/10.2139/ssrn.4860138"
+  },
+  {
+    title: "Western Sanctions of Russia: A Double-Edged Sword?",
+    year: 2024,
+    coAuthors: "Conor Carmody"
+  },
+  {
+    title: "Economic Effects of Pandemic on US and Indian Economies with Policy Actions in 2019-2023: A Comparative Analysis",
+    year: 2024,
+    coAuthors: "Amitabh S. Dutta",
+    link: "https://digitalcommons.du.edu/irbe/vol9/iss1/4/"
   },
   {
     title: "Price Formation in a Small Open Economy",
@@ -95,6 +112,22 @@ var KULKARNI_PUBLICATIONS = [
     year: 2022,
     coAuthors: "Poornima Tapas, Deepa Pillai, Rita Dangre",
     link: "https://doi.org/10.56902/irbe.2022.6.1.2"
+  },
+  {
+    title: "Projections for Poverty Elimination in India with Some Assumptions: Impact of Inequality",
+    year: 2022,
+    coAuthors: "P. Nandakumar Warrier, Rebecca Stephan"
+  },
+  {
+    title: "Effects of COVID-19 on Business and Financial Strategy of a Firm: Survey of Indian MSMEs",
+    year: 2022,
+    coAuthors: "Amitabh S. Dutta, Kun Peng Lai"
+  },
+  {
+    title: "From Vanilla to Immiserizing Growth, Better Economy and Worse Living Conditions: A Case of Madagascar",
+    year: 2022,
+    coAuthors: "Tianyue (Steven) Gu",
+    link: "https://doi.org/10.53739/samvad/2022/v24/169607"
   },
   {
     title: "The Economic Impact of COVID-19 and Responses in Two BRIC Nations — Brazil and India",
@@ -149,10 +182,28 @@ var KULKARNI_PUBLICATIONS = [
     link: "https://doi.org/10.2139/ssrn.4854148"
   },
   {
+    title: "Short Comparison of Trade Policies in Thailand, Myanmar and Laos",
+    year: 2021,
+    coAuthors: "Bryanna Till",
+    link: "https://doi.org/10.53739/samvad/2021/v22/165236"
+  },
+  {
+    title: "The Effects of Protectionist Policies in Romania",
+    year: 2021,
+    coAuthors: "Nina Rata",
+    link: "https://doi.org/10.21844/mijia.17.1.1"
+  },
+  {
     title: "Comparison of Monetary Policy Actions: UK, Japan, and USA During the Financial Crisis of 2008",
     year: 2020,
     coAuthors: "Gary O Chapman",
     link: "https://doi.org/10.2139/ssrn.4856561"
+  },
+  {
+    title: "Chinese Economic Growth and a Few Theoretical Explanations",
+    year: 2020,
+    coAuthors: "Jacob Sorber",
+    link: "https://doi.org/10.15410/aijm/2020/v9i2/155635"
   },
   {
     title: "Theoretical Arguments of Economic Growth as Applied to the Case of Nicaragua",
