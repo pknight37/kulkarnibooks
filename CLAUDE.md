@@ -156,3 +156,57 @@ curl "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://YOU
 ```
 
 Reference: https://developers.google.com/speed/docs/insights/v5/get-started
+
+## Security
+
+This site follows a security checklist adapted from the [Cloudflare Website Security Guide](https://www.cloudflare.com/learning/security/glossary/website-security-checklist/). Because this is a static site on GitHub Pages with no backend, many enterprise concerns (authentication, DDoS mitigation, WAF) are handled at the hosting/infrastructure level. The guidelines below cover what is controllable in the codebase.
+
+### No Exposed APIs or Secrets
+
+- **Never commit API keys, tokens, passwords, or credentials** to this repo.
+- The site makes **zero client-side API calls** — no `fetch()`, `XMLHttpRequest`, or AJAX. All data is hardcoded in JS data files (`*-data.js`). Keep it this way.
+- Utility scripts (e.g., `scripts/fetch-publication-links.py`) that call external APIs are offline one-time tools, never served to users. They must not contain real credentials — use environment variables or placeholder identifiers.
+
+### No Third-Party Scripts or Cookies
+
+- The site loads **no external JavaScript** — no CDNs, analytics, tracking, or third-party dependencies. This eliminates an entire class of supply-chain and client-side attacks (Magecart, XSS via compromised CDNs, etc.).
+- The site sets **no cookies**. If cookies are ever introduced, they must use `Secure`, `HttpOnly`, and `SameSite` attributes.
+- Before adding any third-party script or service, evaluate the security implications. Prefer self-hosted alternatives over CDN-loaded scripts.
+
+### XSS Prevention
+
+- All dynamic HTML rendering uses `escapeHtml()` before inserting data via `innerHTML`. This function escapes `&`, `<`, `>`, and `"`.
+- **Never** use `eval()`, `document.write()`, or `new Function()` with dynamic input.
+- **Never** insert user-controlled or external data into `innerHTML` without escaping.
+- Keep all rendering logic in the `*-renderer.js` IIFE modules where escaping is centralized and tested.
+
+### Form Security
+
+- The report-issue form uses Formspree (POST endpoint), which handles CSRF protection server-side.
+- Client-side validation in `scripts/form-validation.js` supplements (but does not replace) server-side validation.
+- Never add forms that submit sensitive data without HTTPS (GitHub Pages enforces this automatically).
+
+### HTTPS / TLS
+
+- GitHub Pages provides automatic HTTPS with managed SSL/TLS certificates. All traffic is encrypted in transit.
+- All external links in data files should use `https://` URLs, never `http://`.
+
+### Hosting Limitations (GitHub Pages)
+
+The following security measures are handled at the infrastructure level and cannot be configured in the codebase. They may appear as warnings in security audits — this is expected and not actionable:
+
+- HTTP security headers (CSP, HSTS, COOP, X-Frame-Options, Trusted Types)
+- DDoS protection and rate limiting (GitHub provides baseline protection)
+- Bot management and traffic filtering
+- DNS security (DNSSEC) — depends on domain registrar
+- Origin IP hiding — GitHub Pages abstracts this
+
+### Security Checklist for Code Changes
+
+Before merging any change, verify:
+- No API keys, tokens, or credentials added to any file.
+- No new third-party scripts introduced without justification.
+- All dynamic HTML content is escaped via `escapeHtml()`.
+- No `eval()`, `document.write()`, or `new Function()` usage.
+- All external URLs use `https://`.
+- `.gitignore` excludes sensitive files (`.env`, credentials, editor configs).
