@@ -1,0 +1,141 @@
+/* ===== Conference Banner (Home page) ===== */
+.conf-banner {
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.conf-banner__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.conf-banner__title {
+  font-size: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.conf-banner__details {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  opacity: 0.95;
+}
+
+.conf-banner__link {
+  display: inline-block;
+  background: var(--color-white);
+  color: var(--color-primary);
+  text-decoration: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  min-height: 44px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.conf-banner__link:hover {
+  background: var(--color-bg-alt);
+  color: var(--color-primary);
+}
+
+/* ===== Conference Page ===== */
+.conf-logo {
+  display: block;
+  margin: 0 auto 2rem;
+  max-width: 160px;
+}
+
+.conf-section {
+  margin-bottom: 2rem;
+}
+
+.conf-section h2 {
+  font-size: 1.35rem;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.conf-section p {
+  max-width: 65ch;
+}
+
+.conf-section p + p {
+  margin-top: 0.75rem;
+}
+
+.conf-section ul {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 1.25rem;
+  margin-left: 0;
+}
+
+.conf-section li {
+  margin-bottom: 0.25rem;
+}
+
+/* Key dates highlight */
+.conf-section--highlight {
+  background: var(--color-bg-alt);
+  border-left: 4px solid var(--color-accent);
+  padding: 1.5rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.conf-dates {
+  margin-top: 0.5rem;
+}
+
+.conf-dates dt {
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-top: 1rem;
+}
+
+.conf-dates dt:first-child {
+  margin-top: 0;
+}
+
+.conf-dates dd {
+  margin-left: 0;
+}
+
+/* Email CTA */
+.conf-cta {
+  display: inline-block;
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  min-height: 44px;
+  transition: background 0.2s;
+}
+
+.conf-cta:hover {
+  background: var(--color-primary-light);
+  color: var(--color-white);
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+  .conf-banner__title {
+    font-size: 1.15rem;
+  }
+
+  .conf-banner__details {
+    font-size: 0.875rem;
+  }
+
+  .conf-section--highlight {
+    padding: 1rem;
+  }
+
+  .conf-logo {
+    max-width: 120px;
+  }
+}
