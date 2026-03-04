@@ -1,5 +1,11 @@
 var KULKARNI_NEWS = [
   {
+    title: "Gas prices are climbing again in Colorado, and drivers are noticing",
+    source: "CBS Colorado",
+    date: "2026-03-03",
+    link: "https://www.cbsnews.com/colorado/news/gas-prices-colorado-crude-oil-stations/"
+  },
+  {
     title: "Small businesses face uncertainty as Trump warns of additional tariffs",
     source: "9NEWS",
     date: "2026-02-23",
