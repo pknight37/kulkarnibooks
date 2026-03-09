@@ -34,6 +34,75 @@ When creating pages from user-provided source material (emails, PDFs, documents)
 - CSS lives in a `styles/` directory; JavaScript in a `scripts/` directory (create these as needed).
 - No minification, bundling, or compilation is expected.
 
+## File Structure
+
+```
+kulkarnibooks/
+├── CLAUDE.md                     # Project instructions for Claude Code
+├── CNAME                         # Custom domain config (GitHub Pages)
+├── LICENSE
+├── README.md
+├── .gitignore
+│
+├── index.html                    # Home / landing page
+├── biography.html                # Biography page
+├── books.html                    # Books listing (data-driven)
+├── publications.html             # Academic publications (data-driven)
+├── news.html                     # Media appearances (data-driven)
+├── conference.html               # SIAA conference page
+├── kulkarni-hypothesis.html      # Kulkarni Hypothesis page
+├── contact.html                  # Contact information
+├── report-issue.html             # Report-issue form (Formspree)
+├── tests.html                    # Browser-based test runner
+│
+├── styles/
+│   ├── main.css                  # Global styles, CSS custom properties, nav, footer
+│   ├── books.css                 # Books page styles
+│   ├── publications.css          # Publications page styles
+│   ├── news.css                  # News page styles
+│   └── conference.css            # Conference page styles
+│
+├── scripts/
+│   ├── books-data.js             # Book entries (hardcoded data, no API calls)
+│   ├── books-renderer.js         # Renders book cards from data (IIFE, uses escapeHtml)
+│   ├── books-renderer.test.js    # Tests for books renderer
+│   ├── books-init.js             # Bootstraps books page
+│   ├── publications-data.js      # Publication entries (hardcoded data)
+│   ├── publications-renderer.js  # Renders publication list (IIFE, uses escapeHtml)
+│   ├── publications-renderer.test.js
+│   ├── publications-init.js      # Bootstraps publications page
+│   ├── news-data.js              # News/media entries (hardcoded data)
+│   ├── news-renderer.js          # Renders news cards (IIFE, uses escapeHtml)
+│   ├── news-renderer.test.js
+│   ├── news-init.js              # Bootstraps news page
+│   ├── form-validation.js        # Client-side validation for report-issue form
+│   └── fetch-publication-links.py  # Offline utility (not served to users)
+│
+├── images/
+│   ├── hero_shot.webp            # Main hero image (home page)
+│   ├── hero_shot.png             # Hero image source (pre-WebP)
+│   ├── siaa-logo.webp            # SIAA conference logo
+│   ├── placeholder-cover.svg     # Fallback book cover
+│   ├── portrait-placeholder.svg  # Fallback portrait
+│   ├── economics.png             # Subject illustration
+│   ├── theory.png                # Subject illustration
+│   ├── *.webp                    # Book cover images (WebP format)
+│   └── ...
+│
+└── content/                      # Reference material (PDFs, documents) for building pages
+    └── *.pdf                     # Source content provided by the user — not served to visitors
+```
+
+### Architecture Pattern (Data-Driven Pages)
+
+Pages like Books, Publications, and News follow a consistent pattern:
+1. `*-data.js` — exports a hardcoded array of entries (no API calls).
+2. `*-renderer.js` — IIFE module that renders HTML from data using `escapeHtml()` for XSS safety.
+3. `*-renderer.test.js` — unit tests for the renderer, run via `tests.html`.
+4. `*-init.js` — tiny bootstrap script loaded by the HTML page, wires data to renderer.
+5. `*.html` — the page itself, loads the CSS and scripts.
+6. `styles/*.css` — page-specific styles (all pages also use `styles/main.css`).
+
 ## Test-Driven Development (Canon TDD)
 
 All code in this repo follows Kent Beck's Canon TDD workflow. Source: https://tidyfirst.substack.com/p/canon-tdd
