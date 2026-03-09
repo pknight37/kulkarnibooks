@@ -18,6 +18,16 @@ python3 -m http.server 8080
 npx serve .
 ```
 
+## Content Fidelity
+
+When creating pages from user-provided source material (emails, PDFs, documents):
+
+- **Never add sentences, claims, or facts not present in the source material.** Every factual statement on the page must trace back to the provided content.
+- **Do not embellish, paraphrase with new meaning, or "fill in" explanations** — even if they seem obviously true. If the source doesn't say it, the page shouldn't say it.
+- **Relocating phrases** from one section of the source to another is acceptable for formatting, but flag it during review.
+- **Editorial additions** (page subtitles, section headings, bold labels) are acceptable as structural/design elements, but must not introduce new factual claims.
+- **Always self-review** content pages against the source material before presenting to the user. Call out any editorial additions explicitly.
+
 ## Conventions
 
 - All pages are plain `.html` files in the repo root or subdirectories.
