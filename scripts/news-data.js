@@ -1,5 +1,17 @@
 var KULKARNI_NEWS = [
   {
+    title: "Running on empty: Gas prices keep climbing",
+    source: "My Met Media",
+    date: "2026-04-14",
+    link: "https://www.mymetmedia.com/running-on-empty-gas-prices-keep-climbing/"
+  },
+  {
+    title: "JBS workers previously on strike agree to ratify agreement with company",
+    source: "Denver7",
+    date: "2026-04-13",
+    link: "https://www.denver7.com/news/front-range/greeley/jbs-workers-previously-on-strike-agree-to-ratify-agreement-with-company"
+  },
+  {
     title: "MSU Denver professor talks economic impact of Denver Summit FC",
     source: "Denver7",
     date: "2026-03-27",
